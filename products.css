@@ -1,0 +1,1250 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Gilroy:wght@300;400;500;700&display=swap");
+
+* {
+  /* background-color: #000;
+  background-color: #fff; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: white; */
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin: 5px 0 0 20px;
+}
+
+.header {
+  /* background: #fff; */
+  border-radius: 20px;
+  z-index: 99;
+  padding: 10px;
+  margin-top: 10px;
+  /* width: 1200px;| */
+}
+.header::after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  background: #fff;
+  /* background-color: red; */
+  width: 1124px;
+  height: 50px;
+  /* padding: 20px; */
+  margin-left: 4px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+.hero-content::before {
+  content: "";
+  position: absolute;
+  top: -10;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background: url("./assets/BLOB\ ANIMATION.gif"); */
+  /* background: url("/supprtsvgs/Gradient.png"); */
+  /* background: url("./assests/Gradient.png"); */
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  inset: 0;
+  /* background-size: 1840px; */
+  z-index: -1;
+}
+.logotext
+{
+  margin-top: 12px;
+  margin-left: 5px;
+  color: rgba(35, 172, 128, 1);
+}
+.item {
+  margin: 10px 20px;
+  color: #000;
+}
+.nav_section {
+  z-index: 99;
+   /* background-color: red; */
+  }
+
+  .nav_section::before {
+    /* background-color: red; */
+    content: "";
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  display: block;
+  height: 520px;
+  width: 100%;
+  /* background: url("./assests/Gradient.png"); */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.header {
+  z-index: 9999;
+  /* position: relative; */
+}
+
+.search-container {
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+
+margin-right: 50px;
+}
+/* searchinp */
+.search-container input[type="text"] {
+  padding: 5px 0;
+  padding-right: 30px; /* Space for the icon */
+  /* background-color: red;nav_section */
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.search-container .search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  cursor: pointer;
+}
+.btn_login
+{
+  
+  padding: 5px 30px;
+  background: linear-gradient(180deg, #0B224E -140%, #01787B 93.61%);
+  color: white;
+  box-shadow: 0px 0px 15.7636px rgba(56, 185, 144, 0.5);
+border-radius: 34px;
+margin-right: 80px;
+margin-top: 5px;
+}
+.btn_login1 {
+  padding: 15px 30px;
+  color: #01787B;
+  font-weight: 500;
+  background: white;
+  border-radius: 34px;
+  margin-right: 80px;
+  margin-top: 5px;
+  box-shadow: 0 2px 4px rgba(255, 254, 254, 0.2); /* Add the box shadow */
+}
+/* =================== navbar end  ============================= */
+.maincontainerbox
+{
+  /* background-color: green; */
+  margin: 0 90px;
+} 
+.box1
+  {
+    display: flex;
+  
+  }
+
+.box_1{
+  
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   font-family: 'Poppins', sans-serif;
+
+   /* padding-right: 120px; */
+
+  }
+  .box_2{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins';
+    /* background-color: red; */
+    margin-left: 110px;
+    
+    
+  }
+  .box3
+  {
+ display: flex;
+ flex-direction: row-reverse;
+ justify-content: center;
+ align-items: center;
+  margin-top: 10px;
+  margin-bottom: 120px;
+}
+
+.box_1_text{
+   margin-bottom: 10px;
+   font-size: 35px;
+   font-weight: 700;
+   /* background-color: red; */
+  
+}
+.box_1 p{
+  font-size: 18px;
+  margin-right: 5px;
+}
+.textproduct{
+color: #01787B ;
+}
+.btn_b1
+{
+  
+  padding: 15px 45px;
+  background: linear-gradient(180deg, #0B224E -140%, #01787B 93.61%);
+  color: white;
+  box-shadow: 0px 0px 15.7636px rgba(56, 185, 144, 0.5);
+border-radius: 34px;
+}
+.btn_b2
+{
+  
+  padding: 15px 45px;
+  color: #01787B ;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 15.7636px #C4E2EC;
+  border-radius: 34px;
+}
+
+.parent {
+ 
+ margin-left: 25px;
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+.image1 {
+ 
+  width: 850px;
+  height: 350px;
+
+}
+.splitimage
+{
+  display: none;
+}
+.box2_graphs{
+ 
+    width: 1000px;
+    height: 350px;
+    
+}
+.box2_p{
+   
+    margin-right: 20px; 
+}
+.boxweb
+{
+  margin-left: 160px;
+  margin-bottom: 50px;
+}
+
+
+
+.fapi {
+  margin-top: 10px;
+  padding-top: 80px;
+  width: 600px; /* adjust width as needed */
+  height: 400px; /* adjust height as needed */
+  margin-left: 50px;
+  /* background-color: yellow; */
+}
+.fapi1 {
+  margin-top: 10px;
+  width: 700px; /* adjust width as needed */
+  height: 300px; /* adjust height as needed */
+  margin-right: 10px;
+
+
+}
+
+.fapi img {
+  padding-right: 50px;
+}
+
+.context
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 150px;
+  position: absolute;
+
+  margin: 65px 65px;
+ 
+}
+
+.gbgimg
+{
+  width: 1200px;
+  height: 200px;
+ /* background-color: #fff; */
+
+}
+.gbgimg img{
+  border-radius: 35px;
+}
+
+.box5{
+  /* background-color: green; */
+  height: 250px;
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./assests/Gradientbgbox5.png);
+  background-size: cover; 
+  border-radius: 35px;
+}
+
+.box5_h
+{
+  font-weight: 500;
+  font-size: 45px;
+  color: white;
+  padding-left: 50px;
+}
+.box5_p
+{
+  color: white;
+  margin-right: 350px;
+ padding-left: 50px;
+  font-size: 15px;
+  font-weight: 400;
+}
+footer{
+
+  background-color: black;
+}
+.comp
+{
+ 
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+.titlef{
+  color:black ;
+  font-weight: 600;
+  font-size: 23px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+li,.text1{
+  color:rgba(86, 86, 86, 1) ;
+  /* color: white; */
+  margin-bottom: 10px;
+}
+.footerlogo{
+  color: #01787B ;
+}
+.textfooter,.textfooteraction{
+  color: white;
+}
+.footerbottom{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 120px;
+}
+.footerlog{
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.socialmedia{
+  display: flex;
+}
+.socialmedia img{
+  margin-left: 20px;
+
+}
+.last{
+  color: white;
+  margin-left: 50px;
+  padding-bottom: 80px;
+}
+.last p{
+  font-family: sans-serif;
+}
+.last2{
+  /* display: flex; */
+  color: white;
+  margin-top: 20px;
+ /* justify-content: space-evenly; */
+}
+.textff
+{
+  margin-left: 15px;
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+}
+.fbtns{
+  margin: 5px;
+  padding: 10px;
+  background-color:#01C096 ;
+   border-radius: 5px;
+}
+.last2 {
+  display: flex;
+  justify-content: space-between;
+}
+.lastp2
+{
+  padding-right: 120px;
+  text-decoration: underline;
+}
+.lastp1,
+.lastp2 {
+  margin: 0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+  .maincontainerbox
+  {
+    /* background-color: blue; */
+    /* margin: 10px 20px; */
+    margin: 0;
+     width: 915px;
+  }
+  .box1,.box3{
+    /* background-color: red; */
+    flex-direction: column;
+    }
+   
+    .box_1,.box3{
+     text-align: center;
+    }
+    .box_1 p{
+      font-weight: 400;
+      font-size: 38px;
+     padding: 0 0px;
+     text-align: start;
+     /* background-color: #fff; */
+   
+   }
+   .box_1_text{
+     font-weight: 600;
+     font-size: 50px;
+     
+   }
+   .image1 {
+     height: 650px;
+     padding-right: 150px;
+     /* background-color: #fff; */
+     
+   }
+   .box2
+   {
+     flex-direction: column-reverse;
+   }
+   .boxweb
+   {
+     margin-left: 0;
+     text-align: center;
+   }
+   
+   .box2_p{
+    font-weight: 400;
+      font-size: 38px;
+       /* padding: 0 180px; */
+       text-align: start;
+    
+   }
+   .box_2 p{
+     font-weight: 400;
+     font-size: 20px;
+       padding: 0 180px;
+       text-align: start;
+    
+   }
+   .box2_graphs{
+    
+     width: 100%;
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 150px;
+     margin-top: 100px;
+     /* background-color: #fff; */
+   }
+   .box2_graphs img{
+    height: 450px;
+   }
+   .image1ss
+   {
+    display: none;
+   }
+   .box_2{
+       
+     /* background-color: red; */
+     margin-left: 0px;
+     
+     
+   }
+   .fapi {
+   
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* width: 100%;  */
+     height: 450px;
+     margin-left: 120px;
+     margin-bottom: 150px;
+     margin-top: 100px;
+   }
+   .box3
+   {
+    flex-direction: column;
+   }
+   .box3 p
+  {
+    font-weight: 400;
+    font-size: 40px;
+    padding: 0;
+    text-align: start;
+    padding: 0;
+    margin-bottom: 20px;
+
+   }
+   
+   .fapi  
+   {
+  /* background-color: green; */
+  width: 100%;
+  height: 550px;
+  margin: 0;
+  padding: 0;
+   
+   }
+   .fapi img
+   {
+  width: 1200px;
+  height: 500px;
+   }
+   .fapi1 img
+   {
+  width: 1200px;
+  height: 500px;
+   }
+   .fapi1 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+  height: 550px;
+  margin: 0;
+  padding: 0;
+
+   }
+   .comp {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-left: 80px
+   
+  }
+  
+  .company,
+  .Support,
+  .Tools,
+  .Downloads {
+    /* background-color: #f1f1f1; */
+    /* padding: 20px; */
+    text-align: start;
+    color: black;
+    font-size: 30px;
+  }
+  
+  .titlef {
+   color: black;
+   font-size: 30px;
+ 
+    margin-bottom: 10px;
+  }
+  .context
+  {
+    width: 100%;
+    height: 250px;
+    flex-direction: column;
+    margin: 0;
+  }
+  .box5{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* background-color: red; */
+   background-image: url(./assests/Gradientbgbox5.png);
+   background-size: cover; 
+   border-radius: 0px;
+   height: 530px;
+   
+  }
+  .box5_h
+    { 
+      margin: 0;
+      padding: 0;
+      font-size:80px;
+      /* text-align: start; */
+    
+    }
+    .box5_p
+    {
+      margin: 0;
+      padding: 0;
+      font-size: 40px;
+      text-align: start;
+    }
+.context_text
+{
+  
+  width: 800px;
+  /* background-color:yellow; */
+}
+.btn_login1,.btn_b1{
+ 
+  margin-top: 20px;
+  font-size: 30px;
+
+}
+.footerlog
+{
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.footerlog img{
+  height: 100px;
+}
+.fmaintext
+{
+  /* background-color: red; */
+  width: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+  margin-top: 10px;
+}
+
+ .footer2
+ {
+  background-color: black;
+  width: 912px;
+  font-size: 30px;
+ }
+ .footerbottom
+  {
+    flex-direction: column;
+  }
+  .footsebi
+  {
+    /* font-size: 50px; */
+    margin-left: 0;
+    /* background-color: red; */
+    margin: 0;
+  }
+  .tools
+  {
+    display: inline;
+  }
+  .fbtns1,  .fbtns2
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ margin: 20px 0 ;
+ 
+  }
+  .fbtns{
+    margin: 5px;
+    padding: 15px;
+  
+  }
+
+  .tools,.socialmedia
+  {
+    margin: 5px 0;
+    
+  }
+  .socialmedia img
+  {
+    width: 30px;
+  }
+  .lastp2
+  {
+    display: none;
+  }
+  .socialmedia
+  {
+    width: 545px;
+    /* background-color: red; */
+    position: absolute;
+    top: 7070px;
+  }
+  .socialmedia img
+  {
+    width: 55px;
+  }
+  /* .footer2
+ {
+  background-color: red;
+  width: 912px;
+ } */
+
+}
+/* l mobile */
+/* CSS code for @media query */
+@media only screen and (min-width: 360px) and (max-width: 724px) {
+  /* Add your styles here */
+  .maincontainerbox
+  {
+    /* background-color: red; */
+    margin-right: 0px;
+    margin-left: 0px; 
+     width: 911px;
+ 
+  }
+  .box1,.box3{
+    /* background-color: red; */
+    flex-direction: column;
+    }
+   
+    .box_1,.box3{
+     text-align: center;
+    }
+    .box_1 p{
+      font-weight: 400;
+      font-size: 38px;
+     padding: 0 0px;
+     text-align: start;
+     /* background-color: #fff; */
+   
+   }
+   .box_1_text{
+     font-weight: 600;
+     font-size: 50px;
+     
+   }
+   .image1 {
+     height: 650px;
+     padding-right: 150px;
+     /* background-color: #fff; */
+     
+   }
+   .box2
+   {
+     flex-direction: column-reverse;
+   }
+   .boxweb
+   {
+     margin-left: 0;
+     text-align: center;
+   }
+   
+   .box2_p{
+    font-weight: 400;
+      font-size: 38px;
+       /* padding: 0 180px; */
+       text-align: start;
+    
+   }
+   .box_2 p{
+     font-weight: 400;
+     font-size: 20px;
+       padding: 0 180px;
+       text-align: start;
+    
+   }
+   .box2_graphs{
+    
+     width: 100%;
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 150px;
+     margin-top: 100px;
+     /* background-color: #fff; */
+   }
+   .box2_graphs img{
+    height: 450px;
+   }
+   .image1ss
+   {
+    display: none;
+   }
+   .box_2{
+       
+     /* background-color: red; */
+     margin-left: 0px;
+     
+     
+   }
+   .fapi {
+   
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* width: 100%;  */
+     height: 450px;
+     margin-left: 120px;
+     margin-bottom: 150px;
+     margin-top: 100px;
+   }
+   .box3
+   {
+    flex-direction: column;
+   }
+   .box3 p
+  {
+    font-weight: 400;
+    font-size: 40px;
+    padding: 0;
+    text-align: start;
+    padding: 0;
+    margin-bottom: 20px;
+
+   }
+   
+   .fapi  
+   {
+  /* background-color: green; */
+  width: 100%;
+  height: 550px;
+  margin: 0;
+  padding: 0;
+   
+   }
+   .fapi img
+   {
+  width: 1200px;
+  height: 500px;
+   }
+   .fapi1 img
+   {
+  width: 1200px;
+  height: 500px;
+   }
+   .fapi1 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+  height: 550px;
+  margin: 0;
+  padding: 0;
+
+   }
+   .comp {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-left: 80px
+   
+  }
+  
+  .company,
+  .Support,
+  .Tools,
+  .Downloads {
+    /* background-color: #f1f1f1; */
+    /* padding: 20px; */
+    text-align: start;
+    color: black;
+    font-size: 30px;
+  }
+  
+  .titlef {
+   color: black;
+   font-size: 30px;
+ 
+    margin-bottom: 10px;
+  }
+  .context
+  {
+    width: 100%;
+    height: 250px;
+    flex-direction: column;
+    margin: 0;
+  }
+  .box5{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* background-color: red; */
+   background-image: url(./assests/Gradientbgbox5.png);
+   background-size: cover; 
+   border-radius: 0px;
+   height: 530px;
+   
+  }
+  .box5_h
+    { 
+      margin: 0;
+      padding: 0;
+      font-size:80px;
+      /* text-align: start; */
+    
+    }
+    .box5_p
+    {
+      margin: 0;
+      padding: 0;
+      font-size: 40px;
+      text-align: start;
+    }
+.context_text
+{
+  
+  width: 800px;
+  /* background-color:yellow; */
+}
+.btn_login1,.btn_b1{
+ 
+  margin-top: 20px;
+  font-size: 30px;
+
+}
+.footerlog
+{
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.footerlog img{
+  height: 100px;
+}
+.fmaintext
+{
+  /* background-color: red; */
+  width: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+  margin-top: 10px;
+}
+
+ .footer2
+ {
+  background-color: black;
+  width: 912px;
+  font-size: 30px;
+ }
+ .footerbottom
+  {
+    flex-direction: column;
+  }
+  .footsebi
+  {
+    /* font-size: 50px; */
+    margin-left: 0;
+    /* background-color: red; */
+    margin: 0;
+  }
+  .tools
+  {
+    display: inline;
+  }
+  .fbtns1,  .fbtns2
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ margin: 20px 0 ;
+ 
+  }
+  .fbtns{
+    margin: 5px;
+    padding: 15px;
+  
+  }
+
+  .tools,.socialmedia
+  {
+    margin: 5px 0;
+    
+  }
+  .socialmedia img
+  {
+    width: 30px;
+  }
+  .lastp2
+  {
+    display: none;
+  }
+  .socialmedia
+  {
+    width: 545px;
+    /* background-color: red; */
+    position: absolute;
+    top: 7070px;
+  
+  }
+  .socialmedia img
+  {
+    width: 55px;
+  }
+}
+
+/* tablets  */
+@media only screen and (min-width: 764px) and (max-width: 1024px) {
+  .maincontainerbox
+  {
+    /* background-color: aqua; */
+     width: 100%;
+
+     margin: 0;
+     padding: 0;
+
+  }
+  
+.box1{
+  flex-direction: column;
+}
+.box3
+{
+    /* background-color: red; */
+    flex-direction: column;
+  }
+ .box_1,.box3{
+  text-align: center;
+ }
+ .box_1 p{
+  font-weight: 400;
+font-size: 20px;
+  padding: 0 180px;
+  text-align: start;
+
+}
+.box_1_text{
+  font-weight: 600;
+  font-size: 40px;
+  
+}
+.image1 {
+  height: 450px;
+  
+}
+.box2
+{
+  flex-direction: column-reverse;
+}
+.boxweb
+{
+  margin-left: 0;
+  text-align: center;
+}
+
+.box2_p{
+  font-weight: 400;
+  font-size: 20px;
+    padding: 0 180px;
+    text-align: start;
+ 
+}
+.box_2 p{
+  font-weight: 400;
+  font-size: 20px;
+    padding: 0 180px;
+    text-align: start;
+ 
+}
+.box2_graphs{
+ 
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ /* margin-left: 150px; */
+  
+}
+.splitimage
+{
+  display: none;
+}
+.box_2{
+    
+  /* background-color: red; */
+  margin-left: 0px;
+  
+  
+}
+.fapi {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%;  */
+  height: 450px;
+  margin-left: 120px;
+  /* background-color: yellow; */
+}
+
+.fapi1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+  margin-left: 0px;
+  height: 450px;
+}
+  .context
+  {
+    width: 100%;
+    height: 150px;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  .box5{
+    margin: 0;
+    width: 100%;
+    /* background-color: red; */
+   background-image: url(./assests/Gradientbgbox5.png);
+   background-size: cover; 
+   border-radius: 35px;
+   height: 430px;
+   
+  }
+  .box5_h
+    { 
+          
+      padding: 0;
+      font-size: 50px;
+    
+    }
+    .box5_p
+    {
+    
+      padding: 0;
+      font-size: 20px;
+      
+    }
+    .gbgimg
+{
+ width: 100%;
+  height: 500px;
+
+}
+.context_text
+{
+  /* background-color: blueviolet; */
+  margin-left: 50px;
+}
+.context_text h1
+{
+  font-weight: 600;
+font-size: 70px;
+}
+.context_text p
+{
+  font-weight: 400;
+font-size: 20px;
+}
+.btn_login1 {
+  margin-top: 15px;
+  font-size: 30px;
+
+}
+  .footer2
+  {
+    width: 100%;
+    /* background-color: goldenrod; */
+  }
+  .footerbottom
+  {
+    flex-direction: column;
+  }
+  .footsebi
+  {
+    /* background-color: red; */
+    margin: 0;
+  }
+  .tools,.socialmedia
+  {
+    margin: 5px 0;
+    
+  }
+  .socialmedia img
+  {
+    width: 30px;
+  }
+  .lastp2
+  {
+    display: none;
+  }
+ 
+}
+@media only screen and (min-width: 1440px) and (max-width: 1920px) {
+  /* .maincontainerbox */
+  /* { */
+ /* background-color: gold; */
+  /* } */
+  .btn_login1 {
+    padding: 15px 30px;
+    font-size: 25px;
+    margin-right: 0px;
+    margin-top: 5px;
+   
+  }
+  .splitimage
+{
+  display: none;
+}
+  .context
+  {
+
+
+    width: 100%;
+   height: 300px;
+   margin-top: 5px;
+   margin-bottom: 0px;
+  }
+
+   .box5{
+    /* background-color: red; */
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+   justify-content: center;
+    align-items: center;
+    background-image: url(./assests/Gradientbgbox5.png);
+    background-size: cover; 
+    border-radius: 0px;
+  }
+ 
+  .box5_h
+    { 
+          
+      padding: 0;
+      font-size: 50px;
+    
+    }
+    .box5_p
+    {
+    
+      padding: 0;
+      font-size: 20px;
+      
+    }
+}
